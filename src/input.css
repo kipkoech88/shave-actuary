@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+header{
+    background-image: url(../public/images/ante-samarzija-lsmu0rUhUOk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+html{
+    width: 100%;
+}
+#first{
+    background-image: url(../public/images/nathan-dumlao-zUNs99PGDg0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second{
+    background-image: url(../public/images/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#services{
+    margin-top: 0%;
+}
+#need{
+    gap: 0;
+}
+#behind{
+    margin-top: 0%;
+    height: 40%;
+}
